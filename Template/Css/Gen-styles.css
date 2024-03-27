@@ -115,8 +115,8 @@ html {
 }
 body {
   color: #3b3838;
-  font-family: "Poppins", tahoma, sans-serif;
-  font-size: 13px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
   line-height: 26px;
   margin: 0;
 }
@@ -1169,7 +1169,7 @@ html.sticky-header-enabled.sticky-header-active
     letter-spacing: -1px;
   }
   #header .header-nav-main.header-nav-main-font-alternative nav > ul > li > a {
-    font-family: poppins, tahoma, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 0.85rem;
     font-weight: 600;
   }
@@ -11536,7 +11536,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
   border-radius: 5px;
   border: 0;
   color: #666;
-  font-family: "Poppins", tahoma, sans-serif;
+  font-family: Roboto, sans-serif;
   margin: 0;
   padding: 40px 64px 40px 72px;
   padding: 2.5rem 4rem 2.5rem 4.5rem;
@@ -11554,7 +11554,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 }
 .testimonial blockquote p {
   color: #fff;
-  font-family: "Poppins", tahoma, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 1.2em;
 }
 .testimonial .testimonial-arrow-down {
@@ -11599,13 +11599,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 .testimonial.testimonial-style-2 {
   text-align: center;
 }
-.testimonial.testimonial-style-2 blockquote {
-  background: #f2f2f2 !important;
-  border-radius: 20px;
-  padding: 15px;
-  min-height: 350px;
-  margin: 0px;
-}
+
 .testimonial.testimonial-style-2 blockquote:before,
 .testimonial.testimonial-style-2 blockquote:after {
   display: none;
