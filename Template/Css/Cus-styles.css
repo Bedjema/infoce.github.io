@@ -8647,6 +8647,7 @@ a.btn.btn-secondary.mb-2.dp-head {
   text-transform: uppercase;
   font-weight: bold;
   margin: 0px !important;
+  text-shadow: -2px -2px 3px rgb(255 255 255 / 60%), 2px -2px 3px rgb(255 255 255 / 60%), -2px 2px 3px rgb(255 255 255 / 60%), 2px 2px 3px rgb(255 255 255 / 60%);
 }
 .res-li ::marker {
   color: #ed8137;
@@ -10027,6 +10028,7 @@ f
 
 .boxs-slider {
   background-color: #fff;box-shadow: 2px 4px 5px #00000040;border-radius: 20px;
+  font-size: 14px;
 }
 
 .header-extra-info .btn.btn-light {
@@ -10073,4 +10075,16 @@ f
 
 .breadcrumb>li+li:before {
   color: black !important;
+}
+
+.bold-black{
+  text-shadow: 0px -1px 0px rgb(36 36 36), 1px -1px 0px rgb(36 36 36);
+}
+
+.bold-orange{
+  text-shadow: 0px -1px 0px rgb(237 124 48), 1px -1px 0px rgb(237 124 48);
+}
+
+.bold-blue{
+  text-shadow: 0px -1px 0px rgb(68 114 196), 1px -1px 0px rgb(68 114 196);
 }
