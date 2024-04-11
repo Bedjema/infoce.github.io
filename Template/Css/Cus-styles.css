@@ -6163,14 +6163,19 @@ html[dir="rtl"] #header .tip-light:before {
     color: #2f5597 !important;
   }
 }
+@media (max-width: 1070px) {
+  .sol-content {
+    min-height: 87px !important;
+}
+}
 @media (max-width: 991px) {
   .sol-content {
-    min-height: 90px !important;
+    min-height: 60px !important;
 }
   .bg-color-slider h1 {
     bottom: 0px !important;
     position: absolute !important;
-    font-size: 3em !important;
+    font-size: 2.5em !important;
 }
 .testimonial.testimonial-style-2 blockquote {
   min-height: 350px !important;
@@ -7229,6 +7234,9 @@ ul.slider-pagi {
   line-height: 75px;
 }
 @media (max-width: 767px) {
+  .mh-fsrr {
+    min-height: 44px !important;
+}
   .custom-font-size-2 {
     font-size: 3em;
   }
@@ -7580,7 +7588,7 @@ ul.slider-pagi {
   .bg-color-slider h1 {
     bottom: 0px !important;
     position: absolute !important;
-    font-size: 2.5em !important;
+    font-size: 2.1em !important;
 }
   .content-grid .content-grid-item {
     border-top: 0;
@@ -7627,6 +7635,11 @@ ul.slider-pagi {
   .custom-countdown-style-1 > span:before {
     content: none;
   }
+}
+@media (max-width: 480px) {
+.mh-carr {
+  min-height: 30px !important;
+}
 }
 @media (max-width: 420px) {
   .bg-color-slider h1 {
@@ -7736,6 +7749,9 @@ ul.slider-pagi {
   }
 }
 @media only screen and (max-width: 576px) {
+  .mh-fsrr {
+    min-height: unset !important;
+}
 .slide-btn {
   text-align: center;
 }
@@ -8383,7 +8399,7 @@ img.mfp-img {
     background-image: unset !important;
 }
 .home-section-2 {
-  padding-top: 70% !important;
+  padding-top: 80% !important;
   position: static !important;
   background-size: 100% !important;
   background-position: 0 0 !important;
@@ -8431,7 +8447,7 @@ img.mfp-img {
     font-size: 1.35em;
   }
   .text-3-4 {
-    font-size: 1em !important;
+    font-size: 1.15em !important;
 }
   .text-15 {
     font-size: 3.8em !important;
@@ -8630,9 +8646,9 @@ a.btn.btn-secondary.mb-2.dp-head {
   padding: 130px 0 0px;
 }
 .light-cover {
-  background: #12569f !important;
-  background: -webkit-gradient(0deg, #12569f, #12569f00) !important;
-  background: linear-gradient(0deg, #12569f, #12569f00) !important;
+  background: #ffffffcf !important;
+  background: -webkit-gradient(0deg, #ffffffcf, #ffffff00) !important;
+  background: linear-gradient(0deg, #ffffffcf, #ffffff00) !important;
 }
 .page-cover-titre {
   position: relative;
@@ -8647,7 +8663,6 @@ a.btn.btn-secondary.mb-2.dp-head {
   text-transform: uppercase;
   font-weight: bold;
   margin: 0px !important;
-  text-shadow: -2px -2px 3px rgb(255 255 255 / 60%), 2px -2px 3px rgb(255 255 255 / 60%), -2px 2px 3px rgb(255 255 255 / 60%), 2px 2px 3px rgb(255 255 255 / 60%);
 }
 .res-li ::marker {
   color: #ed8137;
@@ -9965,30 +9980,6 @@ f
   margin-bottom: 70px;
   border-radius: 0px 40px 40px 0px;
   margin: 15px 15px 0px 0px;
-}
-
-.home-section-2 .col-cuttin-home-section-2:before {
-  content: '';
-  position: absolute;
-  top: -35%;
-  right: -90%;
-  width: 100%;
-  height: 100%;
-  background: rgb(231 230 230);
-  z-index: 0;
-  transform: rotate(75deg);
-}
-
-.home-section-2 .col-cuttin-home-section-2:after {
-  content: '';
-  position: absolute;
-  top: 35%;
-  right: -90%;
-  width: 100%;
-  height: 100%;
-  background: rgb(231 230 230);
-  z-index: 0;
-  transform: rotate(-75deg);
 }
 
 .home-section-3 {
